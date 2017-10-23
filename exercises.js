@@ -44,7 +44,8 @@ var bango2 = 6
 */
 function add(num1,num2) {
 	return num1+num2;
-}
+};
+
 var sum = add(bango1,bango2)
 console.log (sum)
 
@@ -63,7 +64,8 @@ console.log (sum)
 */ 
 function subtract(num1,num2) {
 	return num1-num2;
-}
+};
+
 var difference = subtract(bango1,bango2)
 console.log (difference)
 
@@ -82,7 +84,8 @@ console.log (difference)
 */
 function multiply(num1,num2) {
 	return num1*num2;
-}
+};
+
 var product = multiply(bango1,bango2)
 console.log (product)
 
@@ -101,7 +104,8 @@ console.log (product)
 */
 function divide(num1,num2) {
 	return num1/num2;
-}
+};
+
 var quotient = divide(bango1,bango2)
 console.log (quotient)
 /*
@@ -117,7 +121,8 @@ console.log (quotient)
 */
 function checksum(x) {
 	return "Mariah Carey has been married " +x+ " amount of times."
-}
+};
+
 console.log(checksum(100));
 /*
  * #7
@@ -132,7 +137,8 @@ console.log(checksum(100));
 */ 
 function checkDifference(x) {
 	return "Last night I dreamt that I ate " +x+ " Taco Bell soft tacos."
-}
+};
+
 console.log(checkDifference(100000000000))
 
 /*
@@ -147,7 +153,8 @@ console.log(checkDifference(100000000000))
 */
 function checkproduct(){
 	return sum * product
-}
+};
+
 console.log(checkproduct());
 
 /*
@@ -162,7 +169,8 @@ console.log(checkproduct());
 */
 function checkquotient(){
 	return product*quotient
-}
+};
+
 console.log(checkquotient());
 
 /*
@@ -184,14 +192,15 @@ console.log(checkquotient());
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-var bango3 = 4
-var bango4 = 14
-var bango5 = 28 
+var bango3 = 4;
+var bango4 = 14;
+var bango5 = 28;
 
-function addthensubtract(num1,num2,num3){
-	return (num1+num2) - num3;
+function addthensubtract(num1,num2,num3) {
+	return (num1,num2) - num3
 }
-console.log(addThenSubtract(bango3, bango4, bango5));
+
+console.log(addthensubtract(bango3,bango4,bango5));
 /*
  * #11
  * Function - multiplyThenDivide
@@ -205,7 +214,10 @@ console.log(addThenSubtract(bango3, bango4, bango5));
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-
+function multiplythendivide(num1,num2,num3) {
+	return (num1,num2) / num3
+}
+console.log(multiplythendivide(bango3,bango4,bango5));
 
 
 /*
@@ -219,8 +231,10 @@ console.log(addThenSubtract(bango3, bango4, bango5));
  *
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
-
-
+function createFullName(firstName,lastName){
+	return firstName + " " + lastName
+}
+console.log(createFullName("Jeriel","Cauton"))
 
 /*
  * #13 
