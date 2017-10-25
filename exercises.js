@@ -249,7 +249,10 @@ console.log(createFullName("Jeriel","Cauton"))
  * This function will use the previous `createFullName` function above to create a message. For example, if you invoked the function like this: eatFood("Biggie", "Smalls", "Won Ton Soup"); it will display the message "Biggie Smalls eats Won Ton Soup everyday for breakfast."
  * Console.log your result.
  */
-
+function eatFood(firstName,lastName,food){
+	return firstName + " " + lastName + " " + food 
+}
+console.log(eatFood("Jeriel","Cauton","eats...RAMEN NOODLES!!!"))
 
 
 /************** ENGAGE HYPERDRIVE **************/
@@ -264,8 +267,12 @@ console.log(createFullName("Jeriel","Cauton"))
  * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
  * Console.log your result. 
 */
+function shoeSize(inches){
+	inches/2.54
+	return shoeSize;
 
-
+} 
+console.log(shoeSize(17.78))
 
 /*
  * #15
@@ -276,8 +283,10 @@ console.log(createFullName("Jeriel","Cauton"))
  * Example input: "believe you can and you're halfway there."
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
- 
-
+function allCaps(str){
+	return allCaps;
+}
+console.log(allCaps("they are going to be all in caps soon enough."))
 
 /*
  * #16
