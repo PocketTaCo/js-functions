@@ -26,8 +26,8 @@ console.log(testGreeting); // printing the output value of the function.
  *
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
-var bango1 = 12
-var bango2 = 6
+var bango1 = 12;
+var bango2 = 6;
 /*
  * #2
  * Function - add
@@ -123,7 +123,7 @@ function checksum(x) {
 	return "Mariah Carey has been married " +x+ " amount of times."
 };
 
-console.log(checksum(100));
+console.log(checksum(sum));
 /*
  * #7
  * Function - checkDifference
@@ -139,7 +139,7 @@ function checkDifference(x) {
 	return "Last night I dreamt that I ate " +x+ " Taco Bell soft tacos."
 };
 
-console.log(checkDifference(100000000000))
+console.log(checkDifference(difference))
 
 /*
  * #8
@@ -168,7 +168,7 @@ console.log(checkproduct());
  * Console.log your result.  
 */
 function checkquotient(){
-	return product*quotient
+	return product * quotient
 };
 
 console.log(checkquotient());
@@ -250,9 +250,9 @@ console.log(createFullName("Jeriel","Cauton"))
  * Console.log your result.
  */
 function eatFood(firstName,lastName,food){
-	return firstName + " " + lastName + " " + food 
+	return firstName + " " + lastName + " eats " + food + " every single day!!! "
 }
-console.log(eatFood("Jeriel","Cauton","eats...RAMEN NOODLES!!!"))
+console.log(eatFood("Jeriel","Cauton","RAMEN NOODLES!!!"))
 
 
 /************** ENGAGE HYPERDRIVE **************/
@@ -268,8 +268,7 @@ console.log(eatFood("Jeriel","Cauton","eats...RAMEN NOODLES!!!"))
  * Console.log your result. 
 */
 function shoeSize(inches){
-	inches/2.54
-	return shoeSize;
+	return "this shoe size of yours in centimeters is " + inches*2.54 + " cm";
 
 } 
 console.log(shoeSize(17.78))
@@ -284,9 +283,10 @@ console.log(shoeSize(17.78))
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
 function allCaps(str){
-	return allCaps;
+	return str.toUpperCase();
 }
-console.log(allCaps("they are going to be all in caps soon enough."))
+console.log(allCaps("this will be in all caps soon enough."));
+
 
 /*
  * #16
@@ -295,8 +295,10 @@ console.log(allCaps("they are going to be all in caps soon enough."))
  * This function will capitalize only the first letter in the variable phase above. 
  * Console.log your result.
 */
-
-
+function oneCap(str){
+	return str.OneCap();
+}
+console.log(oneCap("one of these words are caps only."))
 
 /*
  * #17
